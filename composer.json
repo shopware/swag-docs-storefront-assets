@@ -1,0 +1,31 @@
+{
+    "name": "swag/storefront-assets",
+    "description": "Example plugin to include custom styles and javascript into the Storefront",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/platform": "dev-master"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\StorefrontAssets\\StorefrontAssets",
+        "label": {
+            "de-DE": "Label für das Plugin StorefrontAssets",
+            "en-GB": "Label for the plugin StorefrontAssets"
+        },
+        "description": {
+            "de-DE": "Beschreibung für das Plugin StorefrontAssets",
+            "en-GB": "Description for the plugin StorefrontAssets"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\StorefrontAssets\\": "src/"
+        }
+    }
+}
